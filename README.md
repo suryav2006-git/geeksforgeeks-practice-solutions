@@ -10,6 +10,12 @@ This repository contains my automatically synced GeeksforGeeks solutions.
 
 ![GFG Stats](https://gfgstatscard.vercel.app/mrstudieshelper?theme=light)
 
+## 📊 GeeksforGeeks Statistics
+
+<!-- GFG_STATS_START -->
+Loading...
+<!-- GFG_STATS_END -->
+
 ---
 
 ⭐ Auto-updated from GeeksforGeeks
