@@ -4,22 +4,13 @@ This repository contains my automatically synced GeeksforGeeks solutions.
 
 ## 📊 GeeksforGeeks Profile
 
-🔗 https://www.geeksforgeeks.org/user/mrstudieshelper/
+[![GeeksforGeeks](https://img.shields.io/badge/GeeksforGeeks-Profile-green)](https://www.geeksforgeeks.org/user/mrstudieshelper/)
 
-## 📈 Live Statistics
+## 📈 Live Stats
 
-<!-- GFG-STATS-START -->
-Updating...
-<!-- GFG-STATS-END -->
+![GFG Stats](https://gfgstatscard.vercel.app/mrstudieshelper)
 
-## 📅 Monthly Coding Score
 
-<!-- MONTHLY-SCORE-START -->
-Updating...
-<!-- MONTHLY-SCORE-END -->
+---
 
-## 🔥 Problem Solving Progress
-
-<!-- TOTAL-SOLVED-START -->
-Updating...
-<!-- TOTAL-SOLVED-END -->
+⭐ Auto-updated from GeeksforGeeks
