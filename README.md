@@ -8,8 +8,7 @@ This repository contains my automatically synced GeeksforGeeks solutions.
 
 ## 📈 Live Stats
 
-![GFG Stats](https://gfgstatscard.vercel.app/mrstudieshelper)
-
+![GFG Stats](https://gfgstatscard.vercel.app/mrstudieshelper?theme=light)
 
 ---
 
