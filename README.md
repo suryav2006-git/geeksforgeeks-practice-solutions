@@ -13,7 +13,15 @@ This repository contains my automatically synced GeeksforGeeks solutions.
 ## 📊 GeeksforGeeks Statistics
 
 <!-- GFG_STATS_START -->
-Loading...
+
+| Metric | Value |
+|---------|---------|
+| ✅ Total Solved | 36 |
+| 🏆 Coding Score | 63 |
+| 🎓 Institute Rank | N/A |
+| 🔥 Current Streak | 0 |
+| 🕒 Last Updated | 2026-06-03 06:23 UTC |
+
 <!-- GFG_STATS_END -->
 
 ---
