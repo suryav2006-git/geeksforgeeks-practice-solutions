@@ -7,10 +7,10 @@ class Solution {
         int index = n;
         
         while(low<=high) {
-            int mid = (low+high) / 2;
+            int mid = (low + high) / 2;
             if(nums[mid] > target) {
                 index = mid;
-                high = mid - 1;
+                high = mid-1 ;
             }
             else low = mid + 1;
         }
