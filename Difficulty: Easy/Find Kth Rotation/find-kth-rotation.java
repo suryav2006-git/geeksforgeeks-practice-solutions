@@ -4,19 +4,36 @@ class Solution {
         int n = nums.length;
         int low = 0;
         int high = n-1;
+        int mini = Integer.MAX_VALUE ;
+        int index = -1;
         
         while(low<=high) {
-            if(nums[low] <= nums[high]) {
-                return low;
-            }
+            int mid = low + (high-low)/2 ;
             
-            int mid = low + (high - low) / 2;
+            if(nums[low] <= nums[high] ) {
+                if(nums[low] <= mini) {
+                    index = low;
+                }
+                break;
+            }
             
             if(nums[low] <= nums[mid]) {
-                low = mid+1;
+                if(nums[low] <= mini) {
+                    mini = nums[low];
+                    index = low;
+                }
+                low = mid + 1;
             }
-            else high = mid;
+            else {
+                if(nums[mid] <= mini) {
+                    mini = nums[mid];
+                    index = mid;
+                }
+                high = mid-1;
+            }
+            
         }
-        return 0;
+        
+        return index;
     }
 }
