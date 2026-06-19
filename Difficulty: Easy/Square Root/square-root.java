@@ -6,9 +6,11 @@ class Solution {
         
         while(low<=high) {
             long mid = low + (high - low) / 2;
-            long square = mid * mid;
+            long answer = mid * mid;
             
-            if(square <= n) low = mid+1;
+            if(answer <= n) {
+                low = mid+1;
+            }
             else high = mid-1;
         }
         return (int)high;
