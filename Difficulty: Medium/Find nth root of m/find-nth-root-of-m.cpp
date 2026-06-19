@@ -1,36 +1,33 @@
 class Solution {
   public:
   
-    int func(int mid, int n, int m) {
-        long long answer = 1;
+    int func(int mid , int n, int numb) {
+        long answer = 1;
         
-        for(int i=1; i<=n; i++) {
-            answer = answer * mid;
+        for(int i=1; i<=n ; i++) {
+            answer = answer*mid;
             
-            if(answer > m) return 2;
+            if(answer > numb) return 2;
         }
-        if(answer == m) return 1;
+        if(answer == numb) return 1;
         return 0;
     }
   
-    int nthRoot(int nth, int num) {
+    int nthRoot(int nth, int numb) {
         // Code here
-        if(num == 0) return 0;
+        if(numb==0) return 0;
         
-        int low = 1;
-        int high = num;
+        int low =1;
+        int high = numb;
         
-        while(low<= high ) {
+        while(low <= high) {
             int mid = low + (high - low) / 2;
+            int midnum = func(mid, nth, numb);
             
-            int midnum = func(mid, nth, num) ;
-            
-            if(midnum == 1) {
-                return mid;
-            }
+            if(midnum == 1) return mid;
             
             else if (midnum == 0) low = mid + 1;
-            else high = mid-1;
+            else high = mid -1;
         }
         return -1;
     }
