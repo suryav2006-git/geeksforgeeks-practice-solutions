@@ -12,6 +12,7 @@ class Node {
 
 class Solution {
     
+    
     public int countLength(Node slow) {
         int count = 0;
         Node temp = slow;
